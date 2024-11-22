@@ -1,0 +1,423 @@
+/* Sour Gummy */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+/*  font-family: "Sour Gummy", sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px ;
+    gap: 100px;
+}
+
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.51);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border: 2px solid #88a9c3;
+    position: fixed;
+    top: 10px;
+    left: 0;
+}
+
+header a img{
+    width: 150px;
+}
+
+header a{
+    font-style: 50px;
+    color: #091235;
+    font-weight: 800;
+    font-family: "Roboto", serif;
+}
+
+.banner{
+    width: 70%;
+    height: 600vh;
+    box-shadow: 0 0 5px 0 #000000;
+    margin-top: 100px;
+    
+}
+
+.banner .box{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: "Sour Gummy", sans-serif;
+    color: #88a9c3;
+}
+
+.banner .box1{
+    width: 100%;
+    padding: 0px 5% 0px 5%;
+}
+
+.banner .box img{
+    width: 150px;
+}
+
+.banner .box2 .box3 img{
+    box-shadow: 0 0 10px 0 black;
+
+}
+
+.banner .box2 .box3{
+    padding: 5% 5%;
+}
+
+.banner .box2 .box4{
+    padding: 0% 5% 5% 5%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner .box2 .box4 h1{
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0px 0px 2% 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .box2 .box4 p{
+    font-weight: 900;
+    font-size: 22px;
+    padding: 0px 0px 2% 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #88a9c3;
+}
+
+.banner .box2 .box4 ol{
+    font-size: 18px;
+    padding: 0px 5% 0px 2%;
+    color: #2b4257;
+}
+
+
+/* social */
+
+.social{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* telegram */
+
+.telegram{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 8px;
+    animation: telegram 15s infinite linear alternate;
+}
+
+.telegram i{
+    font-size: 50px;    
+}
+
+@keyframes telegram{
+    0%{
+    }
+
+    100%{
+    }
+
+}
+
+/* telegram tamom */
+
+/* instagram */
+
+.instagram{
+    width: 0px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 205px;
+    left: 30px;
+    animation: instagram 15s infinite linear alternate;
+    box-shadow: 0 0 20px 0 blue;
+
+}
+
+
+
+.instagram i{
+    font-size: 50px;    
+}
+
+@keyframes instagram{
+    0%{
+    }
+
+    100%{
+    }
+
+}
+
+/* instagram tamom */
+
+/* YouTube */
+
+.youtube{
+    width: 1px;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    left: 30px;
+    animation: youtube 15s infinite linear alternate;
+    box-shadow: 0 0 20px 0 blue;
+    background-color: transparent;
+
+}
+
+.youtube i{
+    font-size: 50px;    
+    background-color: transparent;
+    
+
+}
+
+@keyframes youtube{
+    0%{
+    }
+
+    100%{
+    }
+
+}
+
+/* YouTube tamom */
+
+/* box 5 */
+
+.banner .box2 .box5{
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.banner .box2 .box5 ol{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner .box2 .box5 p{
+    font-weight: 900;
+    font-size: 22px;
+    padding: 0px 0px 2% 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #88a9c3;
+
+}
+
+.banner .box2 .box5 span{
+    font-weight: 900;
+    font-size: 22px;
+    padding: 0px 0px 2% 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2b4257;
+
+}
+
+
+
+/* box 5 tamom */
+
+
+/* box 8 */
+
+.banner .box2 .box6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+    
+}
+
+.banner .box2 .box6 .box7 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.banner .box2 .box6 .box8 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.banner .box2 .box6 .box7 .button1{
+    width: 400px;
+    height: 60px;
+    background-color: #98ff98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+}
+
+
+.banner .box2 .box6 .box7 .button2{
+    width: 400px;
+    height: 60px;
+    background-color: #ffdab9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.banner .box2 .box6 .box7 .button3{
+    width: 400px;
+    height: 60px;
+    background-color: #ff0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.banner .box2 .box6 .box7 .button4{
+    width: 400px;
+    height: 60px;
+    background-color: #003366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.banner .box2 .box6 .box7 .button5{
+    width: 400px;
+    height: 60px;
+    background-color: #e6e6fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+
+.banner .box2 .box6 .box8 .button6{
+    width: 400px;
+    height: 60px;
+    background-color: #ffff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+
+.banner .box2 .box6 .box8 .button7{
+    width: 400px;
+    height: 60px;
+    background-color: #ff7f50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.banner .box2 .box6 .box8 .button8{
+    width: 400px;
+    height: 60px;
+    background-color: #ff6347;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.banner .box2 .box6 .box8 .button9{
+    width: 400px;
+    height: 60px;
+    background-color: #708090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+
+
+.banner .box2 .box6 .box8 .button10{
+    width: 400px;
+    height: 60px;
+    background-color: #c0c0c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+
+
+/* box 8 */

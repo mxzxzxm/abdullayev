@@ -1,0 +1,565 @@
+
+/* card 1 */
+
+.box1 header  .header_links i{
+    color: #fff;
+    font-size: 25px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.box1 header .header_links {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(17, 15, 15, 0.779);
+    position: fixed;
+    margin-top: 10px;
+}
+
+.box1 header  .header_links a {
+    color: #fff;
+} 
+
+
+header a img{
+    width: 140px;
+}
+
+
+/* button */
+body .box1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.apple.com/v/home/bs/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_mediumtall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.box1 .box {
+    padding: 630px 620px;
+    
+}
+
+
+.box1 .box {
+    gap: 20px;
+}
+
+
+.box1 .box button{
+    width: 120px;
+    height: 40px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 30px;
+    border: 4px solid blue;
+    background-color: #1004f5;
+    color: #fff;
+}
+
+/* .box1 .box .box3 button{
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid blue;
+    background-color: transparent;
+} */
+
+.box1 .box p {
+    color: #a1a0a0;
+}
+.box1 .box i{
+    color: #a1a0a0;
+}
+
+.box1 .box .boxx{
+    gap: 20px;
+}
+
+
+/* card 2 */
+
+
+
+
+.box1 .box .boxx{
+    width: 300px;
+    height: 400px;
+    padding: 0px 0px 0px 280px;
+}
+
+.box1 .box .boxx{
+    width: 600px;
+    height: 40px;
+    padding: 0px 0px ;
+}
+
+.box1 .box .boxx{
+    padding: 0px 0px 0px 0px ;
+}
+
+
+.box1 .box .boxx .p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.box2{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.apple.com/v/home/bs/images/heroes/iphone-16/hero_iphone16_avail__euwzls69btea_mediumtall.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    margin-top: 10px;
+    
+}
+
+.box2 .boxx {
+    padding: 650px 620px;
+}
+
+.box2 .boxx{
+    gap: 20px;
+}
+
+.box2 .boxx button{
+    width: 120px;
+    height: 40px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 30px;
+    border: 4px solid blue;
+    background-color: #1004f5;
+    color: #fff;
+}
+.box2 .boxx .p p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+.box3  button{
+    width: 120px;
+    height: 40px;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 30px;
+    border: 4px solid blue;
+    background-color: #1004f5;
+    color: #fff;
+}
+
+
+
+/* card 3 */
+
+
+
+.xxc{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.apple.com/v/home/bs/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_mediumtall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.xxc .box3{
+    padding: 50px 580px;
+    align-items: center;
+
+}
+
+.xxc .box3 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.xxc .box3 h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.xxc .box3 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.xxc .box3 .xxx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+/* card 4 */
+
+ .xxzx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 35px 0px 0px 0px;
+}
+
+ .xxzx .xx{
+    width: 710px;
+    height: 590px;
+    background-image: url("https://www.apple.com/v/home/bs/images/promos/airpods-4/promo_airpods_4_avail__bl22kvpg6ez6_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ .xxzx .xz{
+    width: 710px;
+    height: 590px;
+    background-image: url("https://www.apple.com/v/home/bs/images/promos/airpods-pro-2/promo_airpods_pro_2_avail__vkitqi3okwie_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ .xxzx .xx .xxx button{
+    width: 120px;
+    height: 40px;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 30px;
+    border: 4px solid blue;
+    background-color: #1004f5;
+    color: #fff;
+}
+
+.xxzx .xz .xxx button{
+    width: 120px;
+    height: 40px;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 30px;
+    border: 4px solid blue;
+    background-color: #1004f5;
+    color: #fff;
+}
+ .xxzx .xx {
+    color: #fff;
+    padding: 330px 0px 0px 0px;
+}
+
+ .xxzx .xz {
+    color: #fff;
+    padding: 330px 0px 0px 0px;
+}
+
+ .xxzx .xx h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+ .xxzx .xx p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+ .xxzx .xx .xxx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.xxzx .xz h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+ .xxzx .xz p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.xxzx .xz .xxx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.xxzx .xz .xxx{
+    gap: 20px;
+}
+
+
+
+/* card 5 */
+
+.xxzx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 35px 0px 0px 0px;
+}
+
+ .xxzx .xxz{
+    width: 710px;
+    height: 590px;
+    background-image: url("https://www.apple.com/v/home/bs/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ .xxzx .xzz{
+    width: 710px;
+    height: 590px;
+    background-image: url("https://www.apple.com/v/home/bs/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ .xxzx .xxz .xxx button{
+    width: 120px;
+    height: 40px;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 30px;
+    border: 4px solid blue;
+    background-color: #1004f5;
+    color: #fff;
+
+}
+
+.xxzx .xxz .xxx {
+    gap: 20px;
+}
+
+
+.xxzx .xzz .xxx button{
+    width: 120px;
+    height: 40px;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 30px;
+    border: 4px solid blue;
+    background-color: #1004f5;
+    color: #fff;
+}
+ .xxzx .xxz {
+    color: #010000;
+    padding: 40px 0px 0px 0px;
+}
+
+ .xxzx .xzz {
+    color: #fff;
+    padding: 40px 0px 0px 0px;
+}
+
+ .xxzx .xxz h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+ .xxzx .xxz h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+   
+}
+
+ .xxzx .xxz .xxx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.xxzx .xzz h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+ .xxzx .xzz h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    
+}
+
+.xxzx .xzz .xxx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.xxzx .xzz .xxx{
+    gap: 20px;
+}
+
+.xxzx .xxz .xxx{
+    gap: 20px;
+}
+/* card6 */
+
+
+
+.xxzx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 35px 0px 0px 0px;
+}
+
+ .xxzx .xxa{
+    width: 710px;
+    height: 590px;
+    background-image: url("https://www.apple.com/v/home/bs/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ .xxzx .xza{
+    width: 710px;
+    height: 590px;
+    background-image: url("https://www.apple.com/v/home/bs/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ .xxzx .xxa .xxx button{
+    width: 120px;
+    height: 40px;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 30px;
+    border: 4px solid blue;
+    background-color: #1004f5;
+    color: #fff;
+}
+
+.xxzx .xza .xxx button{
+    width: 120px;
+    height: 40px;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 30px;
+    border: 4px solid blue;
+    background-color: #1004f5;
+    color: #fff;
+    
+}
+ .xxzx .xxa {
+    color: #010000;
+    padding: 40px 0px 0px 0px;
+}
+
+ .xxzx .xza {
+    color: #030000;
+    padding: 40px 0px 0px 0px;
+}
+
+
+.xxzx .xxa .xxx{
+    gap: 20px;
+}
+
+ .xxzx .xxa h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+ .xxzx .xxa h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+   
+}
+
+ .xxzx .xxa .xxx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.xxzx .xza h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+ .xxzx .xza h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    
+}
+
+.xxzx .xza .xxx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.xxzx .xza .xxx{
+    gap: 20px;
+}
+
+.xxzx .xx .xxx{
+    gap: 20px;
+}
